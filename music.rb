@@ -1,4 +1,12 @@
 def list_artist 
+   @library = {
+      :taylor_swift => "Style",
+      :silento => "Watch Me",
+      :selena_gomez => "Good For You",
+      :mark_ronson => "Uptown Funk!",
+      :andy_grammer => "Honey I'm Good",
+      :maroon_five => "Sugar"}
+      list_a
   
   
   
