@@ -7,7 +7,7 @@ def list_artist
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"}
      library.each do
-      return library.values
+     library.values
     end 
   end 
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
