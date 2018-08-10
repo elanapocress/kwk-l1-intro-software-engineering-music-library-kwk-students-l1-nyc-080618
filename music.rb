@@ -21,8 +21,8 @@ library.each do
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
     }
-      library.each do
-        puts library.values
+library.each do
+  puts library.values
       end 
     end 
     
