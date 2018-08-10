@@ -5,13 +5,14 @@ def list_artist
       :selena_gomez => "Good For You",
       :mark_ronson => "Uptown Funk!",
       :andy_grammer => "Honey I'm Good",
-      :maroon_five => "Sugar"}
-     library.each do
-     puts library.keys
+      :maroon_five => "Sugar"
+   }
+library.each do
+  puts library.keys
     end 
   end 
   
-  def list-songs
+  def list_songs
     @library = {
       :taylor_swift => "Style",
       :silento => "Watch Me",
