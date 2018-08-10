@@ -1,4 +1,4 @@
-def list_artist 
+def list_songs 
    @library = {
       :taylor_swift => "Style",
       :silento => "Watch Me",
