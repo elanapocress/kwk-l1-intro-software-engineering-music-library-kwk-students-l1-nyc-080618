@@ -26,7 +26,7 @@ library.each do
       end 
     end 
     
-  def delete_artist
+  def delete_artist (artist_song)
     @library = {
       :taylor_swift => "Style",
       :silento => "Watch Me",
@@ -35,6 +35,7 @@ library.each do
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
     }
+    
     
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
