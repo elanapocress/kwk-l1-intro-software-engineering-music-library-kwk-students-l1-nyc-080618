@@ -6,8 +6,8 @@ def list_artist
       :mark_ronson => "Uptown Funk!",
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"}
-      list_artist.each do
-      list_artist.values
+     library.each do
+      return library.values
     end 
   end 
   
